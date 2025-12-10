@@ -20,6 +20,7 @@ public class Ejemplo061 {
         // Declarar y generar arreglos en Java
         Scanner entrada = new Scanner(System.in);
         String dato;
+        String subDato;
         // arreglo de tipo entero
         String[] arreglo1 = new String[5]; //  se guardaran nombres de personas
         
@@ -30,7 +31,26 @@ public class Ejemplo061 {
             dato = entrada.nextLine();
             // se asigna la variable dato a la posición del arreglo
             // de acuerdo al valor de i
-            arreglo1[i] = dato;
+            subDato = dato.substring(0,1);
+            subDato = subDato.toLowerCase();
+            if (subDato.equals("a")||subDato.equals("e")||subDato.equals("i")||
+                    subDato.equals("o")||subDato.equals("u")){
+                arreglo1[i] = dato;
+            }else{
+                arreglo1[i] = "invalido";
+            }
+/*        switch (subDato){
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+            case "u":
+                arreglo1[i] = "invalido";
+                break;
+            default:
+                arreglo1[i] = "invalido";*/
+
+            
         }
         
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
