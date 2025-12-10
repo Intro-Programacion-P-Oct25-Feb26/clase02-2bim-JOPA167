@@ -28,7 +28,7 @@ public class Ejemplo01 {
 
         // arreglo de tipo String
         String[] arreglo4 = new String[5];
-        
+
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
     }
