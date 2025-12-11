@@ -50,7 +50,7 @@ public class Ejemplo111 {
             mensajeFinal = String.format("%sEstudiante:%s - promedio final: "
                     + "%.4f (m1:%.1f)(m2:%.1f)\n", 
                     mensajeFinal,
-                    estudiantes[i],
+                    estudiantes[i].toLowerCase(),
                     promediosFinales[i],
                     promediosMateria1[i],
                     promediosMateria2[i]);
