@@ -48,7 +48,7 @@ public class Ejemplo111 {
         for (int i = 0; i < promediosMateria1.length; i++) { 
             
             mensajeFinal = String.format("%sEstudiante:%s - promedio final: "
-                    + "%.4f (m1:%.1f)(m2:%.1f)\n", 
+                    + "%.4f (m1:%.1f | m2:%.1f)\n", 
                     mensajeFinal,
                     estudiantes[i].toLowerCase(),
                     promediosFinales[i],
