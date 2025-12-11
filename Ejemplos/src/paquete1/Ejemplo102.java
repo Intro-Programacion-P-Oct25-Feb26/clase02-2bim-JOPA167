@@ -33,7 +33,7 @@ public class Ejemplo102 {
             // Luis o Ana
             nombre = estudiantes[i];
             if (nombre.equals("Luis")) {
-            
+            // la expresion de la linea 35 está excluyendo a luis ya que lleva!
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
                         mensajeFinal,

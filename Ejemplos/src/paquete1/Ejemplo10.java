@@ -35,12 +35,12 @@ public class Ejemplo10 {
             //  promedios[1]
             //  9 > 8.1
             if (promedios[i]>8.1) {
-            
+            double valor = promedios[i];
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
                         mensajeFinal,
                         estudiantes[i],
-                        promedios[i]);
+                        valor);
             }
         }
         
